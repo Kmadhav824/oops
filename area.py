@@ -16,5 +16,5 @@ def main():
         except ValueError:
             print('Please enter valid integers for length and breadth')
 
-if __name__=='__main__':
+if __name__ == '__main__':
     main()
