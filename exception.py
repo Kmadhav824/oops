@@ -7,3 +7,10 @@ while i<10:
 
     except ZeroDivisionError:
         print("Division by zero is not allowed")
+
+    # The below code will get executed when there is no exception
+    else:
+        print("No exception occurred")
+    # The below code will always get executed
+    finally:
+        print("finally block executed")
